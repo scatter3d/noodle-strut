@@ -53,7 +53,7 @@ def helix(in_list):
         try:
             int(res[1]) == False
         except:
-            if "H" in res[3] or "I" in res[3] or "G" in res[3]:
+            if "H" in res[3] or "G" in res[3]:
                 temp_helix.append(res)
             else:
                scraps.append(res)
